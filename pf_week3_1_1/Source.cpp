@@ -6,10 +6,10 @@ int main()
 	printf("BMI CALCULATOR\nEnter Weight (kg.) : ");
 	scanf_s("%f", &w);
 	printf("Enter Height (m.) : ");
-	scanf_s("%.1f", &h);
+	scanf_s("%f", &h);
 
 	float bmi = w / (h * h);
-	printf("%f ", bmi);
+	printf("%.1f ", bmi);
 	if (bmi < 18.5)
 		printf("UNDERWEIGHT");
 	else if (bmi <= 24.9)
