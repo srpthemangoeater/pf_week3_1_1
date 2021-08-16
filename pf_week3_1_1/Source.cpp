@@ -1,4 +1,4 @@
-//64010846
+//64010846 bmi calculator
 #include <stdio.h>
 int main()
 {
